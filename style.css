@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --box-shadow: rgba(150, 67, 290, 0.5) 2px 5px 8px;
+}
+
+body {
+  font-size: 10px;
+  background-color: rgb(49, 49, 163);
+  color: white;
+}
+
+section .heading {
+  margin: 2rem auto 2rem auto;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.heading p {
+  font-size: 1.5rem;
+}
+
+section .score {
+  margin: 0px auto 2rem auto;
+  text-align: center;
+  color: black;
+  background-color: white;
+  min-width: 350px;
+  max-width: 400px;
+  box-shadow: var(--box-shadow);
+}
+
+.score .user-score {
+  font-size: 1rem;
+  word-spacing: 0.2rem;
+  padding: 0.5rem 0;
+}
+
+.score p button {
+  font-size: 1rem;
+  word-spacing: 0.2rem;
+  width: 100%;
+  background-color: green;
+  border: none;
+  padding: 0.5rem 0;
+  color: white;
+}
+
+.score p button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.question {
+  max-width: 1000px;
+  color: black;
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.question .options {
+  padding-left: 0.5rem;
+}
+
+.correct {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+}
+
+.wrong {
+  background-color: rgb(243, 95, 95);
+  border: 2px solid red;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.submit-button input {
+  padding: 0.5rem 2rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+.submit-button input:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
